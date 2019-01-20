@@ -17,7 +17,7 @@ class TeamUserController extends Controller
     {
         $team->users()->sync($request->get('users'));
 
-        return redirect(action('TeamController@index'))->with('success', 'The items were addedd successfully.');
+        return redirect(action('TeamController@index'))->with('success', 'The items were added successfully.');
     }
 
     /**
