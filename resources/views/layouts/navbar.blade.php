@@ -39,7 +39,7 @@
 
                   <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
                       <a class="dropdown-item" href="{{ action('SkillController@index') }}">List of Skills</a>
-                      <a class="dropdown-item" href="{{ action('SkillController@create') }}">Create a new Skill</a>
+                      <a class="dropdown-item" href="{{ action('SkillController@create') }}">Create new Skills</a>
                   </div>
               </li>
 
@@ -50,7 +50,7 @@
 
                   <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
                       <a class="dropdown-item" href="{{ action('TechnologyController@index') }}">List of Technologies</a>
-                      <a class="dropdown-item" href="{{ action('TechnologyController@create') }}">Create a new Technology</a>
+                      <a class="dropdown-item" href="{{ action('TechnologyController@create') }}">Create new Technologies</a>
                   </div>
               </li>
             </ul>
